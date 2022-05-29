@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="krisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-17 10:35:23 AM"/>
+        <attribute name="created" value="a3Jpc2E7SkFNRTsyMDIxLTEyLTE2OzA4OjUzOjIzIFBNOzIxMDM="/>
+        <attribute name="edited" value="a3Jpc2E7SkFNRTsyMDIxLTEyLTE3OzEwOjM1OjIzIEFNOzM7MjE5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Celsius" type="Integer" array="False" size=""/>
+            <declare name="Fahrenheit, Kelvin, Reaumur" type="Real" array="False" size=""/>
+            <output expression="&quot;Input Celsius&quot;" newline="True"/>
+            <input variable="Celsius"/>
+            <assign variable="Fahrenheit" expression="Celsius * 1.8 + 32"/>
+            <assign variable="Kelvin" expression="Celsius + 273.15"/>
+            <assign variable="Reaumur" expression="Celsius * 0.8"/>
+            <output expression="&quot;f=&quot;&amp;Fahrenheit" newline="True"/>
+            <output expression="&quot;k=&quot;&amp;Kelvin" newline="True"/>
+            <output expression="&quot;r=&quot;&amp;Reaumur" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="krisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-16 11:26:50 PM"/>
+        <attribute name="created" value="a3Jpc2E7SkFNRTsyMDIxLTEyLTE2OzExOjIyOjA2IFBNOzIwOTQ="/>
+        <attribute name="edited" value="a3Jpc2E7SkFNRTsyMDIxLTEyLTE2OzExOjI2OjUwIFBNOzE7MjIwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, rem1, rem2" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <assign variable="rem1" expression="num1 % 2"/>
+            <assign variable="rem2" expression="num2 % 2"/>
+            <if expression="rem1 == 0">
+                <then>
+                    <output expression="&quot;Even&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Odd&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="rem2 == 0">
+                <then>
+                    <output expression="&quot;Even&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Odd&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

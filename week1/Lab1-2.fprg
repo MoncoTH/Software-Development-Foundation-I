@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="krisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-16 09:57:26 PM"/>
+        <attribute name="created" value="a3Jpc2E7SkFNRTsyMDIxLTEyLTE2OzA4OjQzOjM1IFBNOzIxMDU="/>
+        <attribute name="edited" value="a3Jpc2E7SkFNRTsyMDIxLTEyLTE2OzA5OjU3OjI2IFBNOzM7MjIyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name1, name2, name3" type="String" array="False" size=""/>
+            <declare name="year, age" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input name number1&quot;" newline="True"/>
+            <input variable="name1"/>
+            <output expression="&quot;Input year of birth number1&quot;" newline="True"/>
+            <input variable="year"/>
+            <output expression="&quot;Input name number2&quot;" newline="True"/>
+            <input variable="name2"/>
+            <output expression="&quot;Input year of birth number2&quot;" newline="True"/>
+            <input variable="year"/>
+            <output expression="&quot;Input name number3&quot;" newline="True"/>
+            <input variable="name3"/>
+            <output expression="&quot;Input year of birth number3&quot;" newline="True"/>
+            <input variable="year"/>
+            <assign variable="age" expression="2563 - year"/>
+            <output expression="&quot;1&quot;&amp;name1&amp;age&amp;&quot;year old&quot;" newline="True"/>
+            <output expression="&quot;2&quot;&amp;name2&amp;age&amp;&quot;year old&quot;" newline="True"/>
+            <output expression="&quot;3&quot;&amp;name3&amp;age&amp;&quot;year old&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
